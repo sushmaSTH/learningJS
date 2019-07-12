@@ -1,6 +1,7 @@
 /* Stack */
+function palindrome(word){
 var letters=[]; //this is our stack
-var word = "racecar"
+
 var rword="";
 //put letter of words into stack
 for (var i=0; i <word.length; i++){
@@ -15,3 +16,5 @@ if (word === rword){
 }else{
   console.log(word + " is not a palindrome");
 }
+}
+palindrome("racecar");
