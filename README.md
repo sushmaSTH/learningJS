@@ -1,1 +1,2 @@
 # learningJS
+## Solving JS problems
